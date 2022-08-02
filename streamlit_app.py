@@ -1,8 +1,7 @@
 import streamlit as st
 import pandas as pd
+import matplotlib.pyplot as plt
 
-st.write("Here's our first attempt at using data to create a table:")
-st.write(pd.DataFrame({
-    'first column': [1, 2, 3, 4, 55],
-    'second column': [10, 20, 30, 40, 60]
-}))
+fig, ax = plt.subplots()
+ax.scatter(np.random.normal(0,100,100),np.random.normal(0,100,100)
+st.pyplot(fig)
